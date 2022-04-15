@@ -1,1 +1,3 @@
-import requests
+pip install pokebase
+import pokebase as pb
+
