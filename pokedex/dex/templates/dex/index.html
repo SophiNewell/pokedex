@@ -1,0 +1,17 @@
+<div class="topnav">
+    <input type="text" placeholder="Search..">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </div>
+
+
+<h1>{{pokemon.name}}</h1>
+
+<img src="{{s1.url}}" alt="{{pokemon.name}} image">
+
+
+
+<h2>moves</h2>
+{% for form in pokemon.moves %}
+{{form.move}} 
+</br>
+{% endfor %}
